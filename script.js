@@ -11,7 +11,7 @@ formLogin.addEventListener('submit', function (evento) {
 
   if (emailValido == true && senhaValida == true) {
     mensagemErro.classList.add('d-none');
-    window.location.href = 'admin.html';
+    window.location.href = 'curso.html';
   } else {
     mensagemErro.classList.remove('d-none');
   }
